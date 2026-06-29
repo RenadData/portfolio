@@ -352,10 +352,10 @@
           <div class="hanger-label">03</div>
         </div>
 
-        <div class="star-hanger" onclick="" style="margin-top:60px;opacity:0.4;cursor:default;">
+        <div class="star-hanger" onclick="showProject(3)" style="margin-top:60px;">
           <div class="hanger-string" style="height:140px;"></div>
           <div class="hanger-star" style="--sc:#9b7fd4;">★</div>
-          <div class="hanger-label">soon</div>
+          <div class="hanger-label">04</div>
         </div>
 
         <div class="star-hanger" onclick="" style="margin-top:30px;opacity:0.25;cursor:default;">
@@ -648,6 +648,13 @@ const projects = [
     desc: 'Secure dual-VPC architecture on GCP using Terraform and Docker. Peered frontend and backend web application with full infrastructure-as-code for reproducibility and security.',
     tags: ['GCP','Terraform','Docker','VPC Peering'],
     link: 'https://github.com/RenadData/operation-twin-engines'
+  },
+  {
+    num: 'PROJECT 04',
+    title: 'STC TV Viewing Analytics',
+    desc: 'Three-part analytics project on 1M+ STC TV viewing records: engagement analysis on movie vs. series behaviour and HD/SD viewing patterns, SARIMAX time-series forecasting of watch-time demand, and an item-based collaborative filtering recommender that surfaces genre-coherent titles from user rating patterns alone.',
+    tags: ['Python','pandas','SARIMAX','scikit-learn','Plotly'],
+    link: 'https://github.com/RenadData/stc-tv-viewing-analytics'
   }
 ];
 
